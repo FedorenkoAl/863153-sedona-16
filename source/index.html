@@ -8,7 +8,7 @@
     <header class="header">
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item main-nav__item--active">Главная</li>
+          <li class="nav__item nav__item--active">Главная</li>
           <li class="nav__item">
             <a class="nav__link" href="photo.html">Фото и видео</a>
           </li>
@@ -33,48 +33,46 @@
       <img class="page-main__img" src="#" width="" height="" alt="">
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
-        <article class="advantages-item">
+        <article class="advantage">
           <h2 class="visually-hidden">Причина первая</h2>
-          <article class="reason reason--color">
+          <div class="reason reason--color">
             <p class="reason__title">НАСТОЯЩИЙ ГОРОДОК</p>
             <p class="reason__number">— №1 —</p>
             <p class="reason__description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-        </article>
-          <div class="advantages-item__wrapper">
-            <img class="advantages-item__img" src="#" width="" height="" alt="">
-            <ul class="advantages-item__list">
-              <li class="advantages-item__item">
-                <h2 class="advantages-item__title">Жилье</h2>
-                <img class="advantages-item__img" src="#" width="" height="" alt="">
-                <p class="advantages-item__subtitle">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-              </li>
-              <li class="advantages-item__item">
-                <h2 class="advantages-item__title">СУВЕНИРЫ</h2>
-                <img class="advantages-item__img" src="#" width="" height="" alt="">
-                <p class="advantages-item__subtitle">Не только китайского, но и местного производства!</p>
-              </li>
-              <li class="advantages-item__item">
-                <h2 class="advantages-item__title">ЕДА</h2>
-                <img class="advantages-item__img" src="#" width="" height="" alt="">
-                <p class="advantages-item__subtitle">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
-              </li>
-            </ul>
           </div>
+          <img class="advantage__img" src="#" width="" height="" alt="">
+          <ul class="advantage__list">
+            <li class="advantage__item">
+              <h2 class="advantage__title">Жилье</h2>
+              <img class="advantage__img" src="#" width="" height="" alt="">
+              <p class="advantage__subtitle">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </li>
+            <li class="advantage__item">
+              <h2 class="advantage__title">СУВЕНИРЫ</h2>
+              <img class="advantage__img" src="#" width="" height="" alt="">
+              <p class="advantage__subtitle">Не только китайского, но и местного производства!</p>
+            </li>
+            <li class="advantage__item">
+              <h2 class="advantage__title">ЕДА</h2>
+              <img class="advantage__img" src="#" width="" height="" alt="">
+              <p class="advantage__subtitle">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+            </li>
+          </ul>
         </article>
-        <article class="advantages-item">
+        <article class="advantage">
           <h2 class="visually-hidden">Причина вторая</h2>
-          <article class="reason reason--color">
+          <div class="reason reason--color">
             <p class="reason__title">ТАМ ЕСТЬ Мост дьявола</p>
             <p class="reason__number">— №2 —</p>
             <p class="reason__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-          </article>
-          <img class="advantages-item__img" src="" width="" height="" alt="">
+          </div>
+          <img class="advantage__img" src="" width="" height="" alt="">
         </article>
         <article class="reason">
           <h2 class="visually-hidden">Причина третья</h2>
-            <p class="reason__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
-            <p class="reason__number">— №3 —</p>
-            <p class="reason__description">ВСЕ интересные места находятся очень близко</p>
+          <p class="reason__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
+          <p class="reason__number">— №3 —</p>
+          <p class="reason__description">ВСЕ интересные места находятся очень близко</p>
         </article>
         <article class="reason">
           <h2 class="visually-hidden">Причина четвертая</h2>
@@ -94,21 +92,21 @@
     </main>
     <footer class="page-footer">
       <h2 class="page-footer__title">#visitSEDONA</h2>
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="https://fk.com/htmlacademy">Мы в Фейсбуке</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--YouTube" href="https://YouTube.com/htmlacademy">Мы в YouTube</a>
-          </li>
-        </ul>
-      </div>
-      <p class="footer-academy">Разработано</p>
-      <img class="footer-academy__logo" src="#" width="" height="" alt="">
+      <ul class="page-footer__social social">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="https://fk.com/htmlacademy">Мы в Фейсбуке</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--YouTube" href="https://YouTube.com/htmlacademy">Мы в YouTube</a>
+        </li>
+      </ul>
+      <p class="footer-copyright">
+        <span class="footer-copyright__title">Разработано</span>
+        <img class="footer-copyright__logo" src="#" width="" height="" alt="">
+      </p>
     </footer>
   </body>
 </html>
