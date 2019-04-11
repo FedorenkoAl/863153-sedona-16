@@ -1,15 +1,18 @@
-body {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 18px;
-  color: #ffffff;
-  font-style: normal;
-  background-color: #ffffff;
+body{
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+
+    color: #fff;
+    background-color: #fff;
 }
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
+.visually-hidden{
+    overflow: hidden;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    border: 0;
 }

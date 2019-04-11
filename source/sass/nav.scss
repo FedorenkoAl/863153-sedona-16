@@ -1,24 +1,32 @@
-.nav__item {
-  padding-left: 90px;
-  padding-right: 90px;
-  background-color: #81b3d2;
+.nav__item{
+    padding-right: 90px;
+    padding-left: 90px;
+
+    background-color: #81b3d2;
 }
-.nav__list {
-  font-weight: 700;
-  line-height: 40px;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.nav__list{
+    font-weight: 700;
+    line-height: 40px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    text-transform: uppercase;
 }
-.nav__link {
-  color: #ffffff;
-  font-weight: 700;
-  line-height: 40px;
-  text-transform: uppercase;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #81b3d2;
+.nav__link{
+    font-weight: 700;
+    line-height: 40px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    background-color: #fff;
+    background-color: #81b3d2;
 }

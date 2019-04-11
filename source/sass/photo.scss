@@ -1,24 +1,30 @@
-.photo__title {
-  color: #333333;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
+.photo__title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #333;
 }
-.photo-block__title {
-  color: #333333;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
+.photo-block__title{
+    font-size: 14px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    color: #333;
 }
-.photo-block__author {
-  font-size: 14px;
-  color: #333333;
-  font-weight: 400;
+.photo-block__author{
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #333;
 }
-.smiley__number {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  text-transform: uppercase;
+.smiley__number{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    color: #000;
 }
