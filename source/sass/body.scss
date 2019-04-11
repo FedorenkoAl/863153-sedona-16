@@ -1,6 +1,15 @@
 body {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   color: #ffffff;
+  font-style: normal;
   background-color: #ffffff;
+}
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+ border: 0;
+  padding: 0;
+  overflow: hidden;
 }

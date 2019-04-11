@@ -3,50 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="index.html">Главная</a>
+    <div class="container-sait">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+             <a class="nav__link" href="index.html">Главная</a>
+           </li>
+            <li class="nav__item">
+              <a class="nav__link" href="photo.html">Фото и видео</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__item--active" href="form.html">Форма отзыва</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">HTML academy</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu">
+          <a class="logo">
+            <img class="logo__img" src="" width="" height="" alt="Логотип">
+          </a>
+          <button class="menu__toggle" type="button">Открыть меню</button>
+        </div>
+      </header>
+      <footer class="page-footer">
+        <h2 class="page-footer__title">#visitSEDONA</h2>
+        <ul class="page-footer__social social">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link" href="photo.html">Фото и видео</a>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://fk.com/htmlacademy">Мы в Фейсбуке</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link nav__item--active"> Форма отзыва</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#"> HTML academy</a>
+          <li class="social__item">
+            <a class="social__link social__link--YouTube" href="https://YouTube.com/htmlacademy">Мы в YouTube</a>
           </li>
         </ul>
-      </nav>
-      <div class="menu">
-        <a class="logo">
-          <img class="logo__img" src="" width="" height="" alt="Логотип">
-        </a>
-        <button class="menu__toggle" type="button">Открыть меню</button>
-      </div>
-    </header>
-    <footer class="page-footer">
-      <h2 class="page-footer__title">#visitSEDONA</h2>
-      <ul class="page-footer__social social">
-        <li class="social__item">
-          <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-        </li>
-        <li class="social__item">
-          <a class="social__link social__link--facebook" href="https://fk.com/htmlacademy">Мы в Фейсбуке</a>
-        </li>
-        <li class="social__item">
-          <a class="social__link social__link--YouTube" href="https://YouTube.com/htmlacademy">Мы в YouTube</a>
-        </li>
-      </ul>
-      <p class="footer-copyright">
-        <span class="footer-copyright__title">Разработано</span>
-        <img class="footer-copyright__logo" src="#" width="" height="" alt="">
-      </p>
-    </footer>
+        <p class="footer-copyright">
+          <span class="footer-copyright__title">Разработано</span>
+          <img class="footer-copyright__logo" src="#" width="" height="" alt="">
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
