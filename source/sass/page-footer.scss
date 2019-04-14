@@ -1,9 +1,9 @@
 .page-footer {
-  padding: 0 84px;
   background-color: #ffffff;
 }
 
 .page-footer__title {
+  text-align: center;
   color: #000000;
 }
 
@@ -13,7 +13,12 @@
   list-style: none;
 }
 
-.footer-copyright__title {
+.social__item {
+  text-align: center;
+}
+
+.footer-copyright {
+  text-align: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;

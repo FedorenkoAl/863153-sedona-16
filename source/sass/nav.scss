@@ -1,5 +1,4 @@
 .nav__item {
-  padding-left: 90px;
   background-color: #81b3d2;
 }
 
@@ -8,6 +7,7 @@
   line-height: 40px;
   margin: 0;
   padding: 0;
+  text-align: center;
   list-style: none;
   text-transform: uppercase;
 }
@@ -17,8 +17,13 @@
   line-height: 40px;
   margin: 0;
   padding: 0;
+
   list-style: none;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #81b3d2;
+}
+
+.menu {
+  text-align: center;
 }
