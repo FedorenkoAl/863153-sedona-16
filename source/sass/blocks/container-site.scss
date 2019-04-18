@@ -1,4 +1,21 @@
-.container-site {
-  min-width: 320px;
-  margin: 0 auto;
+@media (min-width: 320px) {
+  .container-site {
+    min-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-site {
+    min-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-site {
+    width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+  }
 }

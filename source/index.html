@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -14,6 +15,7 @@
             <li class="nav__item">
               <a class="nav__link" href="photo.html">Фото и видео</a>
             </li>
+            <li class="nav__item nav__item--logo"></li>
             <li class="nav__item">
               <a class="nav__link" href="form.html">Форма отзыва</a>
             </li>
@@ -24,14 +26,16 @@
         </nav>
         <div class="menu">
           <a class="logo">
-            <img class="logo__img" src="" width="" height="" alt="Логотип">
+            <img class="logo__img" src="http://placehold.it/50x50" width="" height="" alt="Логотип">
           </a>
           <button class="menu__toggle" type="button">Открыть меню</button>
         </div>
       </header>
       <main class="page-main">
+        <div class="sedona">
+          <img class="sedona__img" src="http://placehold.it/130x30" width="" height="" alt="">
+        </div>
         <div class="page-main__wrapper-head">
-          <img class="page-main__img" src="http://placehold.it/150x100" width="" height="" alt="">
           <h1 class="page-main__title">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h1>
           <p class="page-main__subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         </div>
@@ -39,7 +43,7 @@
           <h2 class="visually-hidden">Преимущества</h2>
           <article class="advantage">
             <h2 class="visually-hidden">Причина первая</h2>
-            <div class="advantages__wrapper">
+            <div class="advantage__wrapper">
               <div class="advantage__container">
                 <p class="advantage__title">НАСТОЯЩИЙ ГОРОДОК</p>
                 <p class="advantage__number">— №1 —</p>
@@ -71,41 +75,45 @@
               </div>
             </div>
           </article>
-          <article class="advantage advantages__wrapper">
+          <article class="advantage">
             <h2 class="visually-hidden">Причина вторая</h2>
-            <div class="advantage__container">
-              <p class="advantage__title">ТАМ ЕСТЬ Мост дьявола</p>
-              <p class="advantage__number">— №2 —</p>
-              <p class="advantage__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-            </div>
-            <img class="advantage__img" src="http://placehold.it/150x100" width="" height="" alt="">
-          </article>
-          <article class="advantage">
-            <div class="advantage__container advantage__container--color_azure">
-              <h2 class="visually-hidden">Причина третья</h2>
-              <p class="advantage__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
-              <p class="advantage__number">— №3 —</p>
-              <p class="advantage__description">ВСЕ интересные места находятся очень близко</p>
+            <div class="advantage__wrapper">
+              <div class="advantage__container advantage__container--order">
+                <p class="advantage__title">ТАМ ЕСТЬ Мост дьявола</p>
+                <p class="advantage__number">— №2 —</p>
+                <p class="advantage__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+              </div>
+              <img class="advantage__img" src="http://placehold.it/150x100" width="" height="" alt="">
             </div>
           </article>
-          <article class="advantage">
-            <div class="advantage__container advantage__container--color_azure">
-              <h2 class="visually-hidden">Причина четвертая</h2>
-              <p class="advantage__title">КРАСИВАЯ ДОРОГА</p>
-              <p class="advantage__number">— №4 —</p>
-              <p class="advantage__description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА
-              совсем НЕ СКУЧНО!</p>
-            </div>
-          </article>
-          <article class="advantage">
-            <div class="advantage__container advantage__container--color_azure">
-              <h2 class="visually-hidden">Причина пятая</h2>
-              <p class="advantage__title">МАЛО ТУРИСТОВ</p>
-              <p class="advantage__number">— №5 —</p>
-              <p class="advantage__description">Большинство едет в гранд каньон
-              и толпится там</p>
-            </div>
-          </article>
+          <div class="advantage__wrapper-block">
+            <article class="advantage advantage--color_azure">
+              <div class="advantage__container advantage__container--color_azure">
+                <h2 class="visually-hidden">Причина третья</h2>
+                <p class="advantage__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
+                <p class="advantage__number">— №3 —</p>
+                <p class="advantage__description">ВСЕ интересные места находятся очень близко</p>
+              </div>
+            </article>
+            <article class="advantage advantage--color_azure">
+              <div class="advantage__container advantage__container--color_azure">
+                <h2 class="visually-hidden">Причина четвертая</h2>
+                <p class="advantage__title">КРАСИВАЯ ДОРОГА</p>
+                <p class="advantage__number">— №4 —</p>
+                <p class="advantage__description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА
+                совсем НЕ СКУЧНО!</p>
+              </div>
+            </article>
+            <article class="advantage advantage--color_azure">
+              <div class="advantage__container advantage__container--color_azure">
+                <h2 class="visually-hidden">Причина пятая</h2>
+                <p class="advantage__title">МАЛО ТУРИСТОВ</p>
+                <p class="advantage__number">— №5 —</p>
+                <p class="advantage__description">Большинство едет в гранд каньон
+                и толпится там</p>
+              </div>
+            </article>
+          </div>
         </section>
       </main>
       <footer class="page-footer">

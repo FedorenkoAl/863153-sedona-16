@@ -1,0 +1,16 @@
+@media (min-width: 320px) {
+  .sedona__img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sedona__img {
+    width: 100%;
+  }
+
+  .sedona--photo {
+    min-width: 768px;
+    margin: 0;
+  }
+}

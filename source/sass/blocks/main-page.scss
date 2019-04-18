@@ -1,9 +1,15 @@
-.main-page {
-  text-align: center;
+@media (min-width: 320px) {
+  .main-page__title {
+    color: #333333;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+  }
 }
 
-.main-page__title {
-  color: #333333;
-  font-weight: 700;
-  line-height: 26px;
+@media (min-width: 1200px) {
+  .main-page {
+    width: 1200px;
+    margin: auto;
+  }
 }
