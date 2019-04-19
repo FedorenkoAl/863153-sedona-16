@@ -88,6 +88,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 48px;
     flex: 1;
   }
 
@@ -111,7 +112,7 @@
     width: 280px;
   }
 
-.advantage__container--color_azure {
+  .advantage__container--color_azure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,10 +123,6 @@
       font-size: 21px;
       line-height: 26px;
     }
-  }
-
-  .advantage__container {
-    padding: 48px;
   }
 
   .advantage__container--order {
