@@ -1,16 +1,18 @@
 @media (min-width: 320px) {
-  .sedona__img {
-    width: 100%;
+  .sedona {
+    height: 389px;
+    background-color: #deecf5;
   }
 }
 
 @media (min-width: 768px) {
-  .sedona__img {
-    width: 100%;
+  .sedona {
+    height: 518px;
+    background-color: #6e93be;
   }
 
   .sedona--photo {
     min-width: 768px;
-    margin: 0;
+    margin: auto;
   }
 }

@@ -10,11 +10,18 @@
   }
 
   .page-main__title {
+    width: 305px;
     font-size: 18px;
     font-weight: 700;
+    margin: auto;
+    margin-top: 43px;
+    margin-bottom: 44px;
   }
 
   .page-main__subtitle {
+    width: 305px;
+    margin: auto;
+    margin-bottom: 29px;
     font-size: 14px;
     font-weight: 400;
   }
@@ -28,5 +35,13 @@
   .page-main__title {
     width: 490px;
     margin: auto;
+    margin-top: 51px;
+  }
+
+  .page-main__subtitle {
+     width: auto;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 55px;
   }
 }
