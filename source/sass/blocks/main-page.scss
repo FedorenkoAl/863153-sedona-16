@@ -1,8 +1,9 @@
 @media (min-width: 320px) {
   .main-page__title {
     margin: 0;
-    margin-top: 44px;
+    margin-top: 48px;
     color: #333333;
+    font-size: 18px;
     font-weight: 700;
     line-height: 26px;
     text-align: center;
@@ -15,6 +16,7 @@
   }
 
   .main-page__title {
+    margin-top: 77px;
     font-size: 30px;
     line-height: 26px;
   }
@@ -24,5 +26,11 @@
   .main-page {
     width: 1200px;
     margin: auto;
+  }
+
+  .main-page__title {
+    margin-top: 108px;
+    font-size: 30px;
+    line-height: 26px;
   }
 }
