@@ -90,7 +90,7 @@
     padding-top: 27px;
     color: #000000;
 
-      & .advantage__number {
+    & .advantage__number {
       margin-top: 9px;
       margin-bottom: 16px;
     }
@@ -213,8 +213,8 @@
       width: 190px;
       margin: 0;
       line-height: 21px;
+    }
   }
-}
 
   .advantage__img {
     height: 250px;
@@ -376,7 +376,6 @@
 
   .advantage__recommendation-img {
     margin-bottom: 57px;
-    margin-left: 0px;
   }
 
   .advantage__container--order {
@@ -400,7 +399,7 @@
       width: 244px;
       margin: 0;
       line-height: 21px;
-      }
+    }
   }
 
   .advantage__container--area {
@@ -412,7 +411,6 @@
       margin: auto;
       font-size: 18px;
       line-height: 26px;
-
     }
 
     & .advantage__number {
@@ -436,7 +434,6 @@
       margin: auto;
       font-size: 18px;
       line-height: 26px;
-
     }
 
     & .advantage__number {
