@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 56px;
+
+}
+
+.menu__toggle {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  font-size: 0px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.menu__logo {
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}

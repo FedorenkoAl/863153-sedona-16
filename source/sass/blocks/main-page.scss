@@ -1,13 +1,11 @@
-@media (min-width: 320px) {
-  .main-page__title {
-    margin: 0;
-    margin-top: 48px;
-    color: #333333;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26px;
-    text-align: center;
-  }
+.main-page__title {
+  margin: 0;
+  margin-top: 38px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -16,7 +14,7 @@
   }
 
   .main-page__title {
-    margin-top: 77px;
+    margin-top: 76px;
     font-size: 30px;
     line-height: 26px;
   }
@@ -29,8 +27,8 @@
   }
 
   .main-page__title {
-    margin-top: 108px;
-    font-size: 30px;
+    margin-top: 116px;
+    font-size: 36px;
     line-height: 26px;
   }
 }

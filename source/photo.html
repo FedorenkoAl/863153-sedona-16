@@ -11,31 +11,54 @@
       <header class="header">
         <nav class="nav nav--photo">
           <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="index.html">Главная</a>
+            <li class="nav__item nav__item--active">
+              <a class="nav__link" href="index.html"><span class="nav__list-active">Главная</span></a>
+              <button class="nav__close">Закрыть
+              <img class="nav__close-img" src="img/icon-cross.svg" width="22.199px" height="22.199px">
+              </button>
+            </li>
+            <li class="nav__item nav__item--photo">
+              Фото и видео
+            </li>
+            <li class="nav__item nav__item--logo">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+                <img class="nav__logo-img" src="img/logo-sedona-tablet.svg" width="101.668" height="83.984" alt="Логотип">
+              </picture>
             </li>
             <li class="nav__item">
-              <a class="nav__link nav__item--active">Фото и видео</a>
-            </li>
-            <li class="nav__item nav__item--logo"></li>
-            <li class="nav__item">
-              <a class="nav__link" href="form.html"> Форма отзыва</a>
+              <a class="nav__link" href="form.html">Форма отзыва</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#"> HTML academy</a>
+              <a class="nav__link" href="#">HTML academy</a>
             </li>
           </ul>
         </nav>
-        <div class="menu menu--photo">
-          <a class="logo">
-            <img class="logo__img" src="http://placehold.it/50x50" width="" height="" alt="Логотип">
-          </a>
-          <button class="menu__toggle" type="button">Открыть меню</button>
+        <div class="menu">
+          <div class="menu__logo">
+            <a class="menu__logo-link" href="index.html">
+              <img class="logo__img" src="img/logo-sedona-mobile.svg" width="101.668" height="83.984" alt="Логотип">
+            </a>
+          </div>
+          <button class="menu__toggle" type="button">Открыть меню
+          <img src="img/icon-menu.svg">
+          </button>
         </div>
       </header>
       <main class="main-page">
         <div class="sedona sedona--photo">
-          <img class="sedona__img" src="http://placehold.it/130x30" width="" height="" alt="">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/bg-back-desktop@1x.jpg">
+            <source media="(min-width: 768px)" srcset="img/bg-back-tablet@1x.jpg">
+            <img class="sedona__img" src="img/bg-back-mobile@1x.jpg" width="768" height="389" alt="">
+          </picture>
+          <div class="sedona__wrepper sedona__wrepper--photo">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/bg-intro-triangle-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/bg-intro-triangle-tablet.svg">
+              <img class="sedona__triangle" src="img/bg-intro-triangle-mobile.svg" width="320" height="26.111" alt="">
+            </picture>
+          </div>
         </div>
         <h1 class="main-page__title">Фото и видео</h1>
         <section class="photo">
@@ -45,56 +68,72 @@
             <span class="photo__modif">Фотографии помогут вам забыть о политике и экономике.</span>
           </p>
           <div class="photo-wrapper">
-            <article class="photo-block photo-block--img">
+            <article class="photo-block__width">
               <div class="photo-block__img-wrapper">
-                <img class="photo-block__img" src="http://placehold.it/300x300" width="" height="" alt="">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg">
+                  <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg">
+                  <img class="photo-block__img" src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="">
+                </picture>
               </div>
               <div class="photo-block__wrapper">
                 <p class="photo-block__title">неродные просторы
                   <span class="photo-block__author">Автор фото: Борис</span></p>
-                  <p class="smiley">
-                    <img class="smiley__img" src="http://placehold.it/10x10" width="" height="" alt="">
-                    <span class="smiley__number">1350</span>
+                  <p class="photo-block__like">
+                    <img class="photo-block__like-img" src="img/icon-like.svg" width="" height="" alt="">
+                    <span class="photo-block__like-number">1350</span>
                   </p>
                 </div>
               </article>
               <article class="photo-block">
                 <div class="photo-block__img-wrapper">
-                  <img class="photo-block__img" src="http://placehold.it/150x160" width="" height="" alt="">
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="img/photo-cactus-desktop@1x.jpg">
+                    <source media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.jpg">
+                    <img class="photo-block__img" src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="">
+                  </picture>
                 </div>
                 <div class="photo-block__wrapper">
                   <p class="photo-block__title">Местная растительность
                     <span class="photo-block__author">Автор фото: Сергей</span>
                   </p>
-                  <p class="smiley">
-                    <img class="smiley__img" src="http://placehold.it/10x10" width="" height="" alt="">
-                    <span class="smiley__number">143</span>
+                  <p class="photo-block__like">
+                    <img class="photo-block__like-img" src="img/icon-like.svg" width="" height="" alt="">
+                    <span class="photo-block__like-number">143</span>
                   </p>
                 </div>
               </article>
               <article class="photo-block">
                 <div class="photo-block__img-wrapper">
-                  <img class="photo-block__img" src="http://placehold.it/150x160" width="" height="" alt="">
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="img/photo-roads-desktop@1x.jpg">
+                    <source media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.jpg">
+                    <img class="photo-block__img" src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="">
+                  </picture>
                 </div>
                 <div class="photo-block__wrapper">
                   <p class="photo-block__title">Дорога на север
                     <span class="photo-block__author">Автор фото: Сергей</span></p>
-                    <p class="smiley">
-                      <img class="smiley__img" src="http://placehold.it/10x10" width="" height="" alt="">
-                      <span class="smiley__number">96</span>
+                    <p class="photo-block__like">
+                      <img class="photo-block__like-img" src="img/icon-like.svg" width="" height="" alt="">
+                      <span class="photo-block__like-number">96</span>
                     </p>
                   </div>
                 </article>
                 <article class="photo-block">
                   <div class="photo-block__img-wrapper">
-                    <img class="photo-block__img" src="http://placehold.it/150x120" width="" height="" alt="">
+                    <picture>
+                      <source media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.jpg">
+                      <source media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.jpg">
+                      <img class="photo-block__img" src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" alt="">
+                    </picture>
                   </div>
                   <div class="photo-block__wrapper">
                     <p class="photo-block__title">Мост дьявола
                       <span class="photo-block__author">Автор фото: Сергей</span></p>
-                      <p class="smiley">
-                        <img class="smiley__img" src="http://placehold.it/10x10" width="" height="" alt="">
-                        <span class="smiley__number">254</span>
+                      <p class="photo-block__like">
+                        <img class="photo-block__like-img" src="img/icon-like.svg" width="" height="" alt="">
+                        <span class="photo-block__like-number">254</span>
                       </p>
                     </div>
                   </article>
