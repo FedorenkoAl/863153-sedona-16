@@ -149,7 +149,6 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     padding-left: 0;
     padding-right: 0;
   }
@@ -158,11 +157,11 @@
     position: relative;
 
     & .photo-block__img-wrapper {
-        width: 1200px;
+      width: 1200px;
     }
 
     & .photo-block__img {
-        height: 400px;
+      height: 400px;
     }
 
     & .photo-block__wrapper {
