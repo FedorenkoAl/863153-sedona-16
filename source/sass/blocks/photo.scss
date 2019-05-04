@@ -114,15 +114,12 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
   .photo-block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-
-  .photo-block {
     margin-bottom: 0;
   }
 
@@ -160,15 +157,15 @@
   .photo-block__width {
     position: relative;
 
-  & .photo-block__img-wrapper {
-      width: 1200px;
-  }
+    & .photo-block__img-wrapper {
+        width: 1200px;
+    }
 
-  & .photo-block__img {
-      height: 400px;
-  }
+    & .photo-block__img {
+        height: 400px;
+    }
 
-  & .photo-block__wrapper {
+    & .photo-block__wrapper {
       position: absolute;
       top: 322px;
       width: 1200px;
