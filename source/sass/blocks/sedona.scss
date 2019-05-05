@@ -21,7 +21,8 @@
   width: 100%;
 }
 
-.sedona--photo {
+.sedona--photo,
+.sedona--form {
   position: relative;
   height: 160px;
 }
@@ -59,7 +60,9 @@
     height: 57px;
   }
 
-  .sedona--photo {
+  .sedona--photo,
+  .sedona--form {
+    min-width: 768px;
     position: relative;
     height: 286px;
   }
@@ -87,8 +90,9 @@
     height: 57px;
   }
 
-  .sedona--photo {
-    width: 100%;
+  .sedona--photo,
+  .sedona--form {
+    width: 1200px;
     position: relative;
     height: 300px;
   }

@@ -27,7 +27,8 @@
   background-color: #81b3d2;
 }
 
-.nav__item--logo {
+.nav__item--logo,
+.nav__item--logo-phto {
   display: none;
 }
 
@@ -62,9 +63,11 @@
     display: none;
   }
 
-  .nav__item--logo {
+  .nav__item--logo,
+  .nav__item--logo-phto {
     display: block;
   }
+
 
   .nav__logo-img {
     position: absolute;
@@ -115,11 +118,17 @@
   }
 
   .nav__logo-img {
-    width: 100%;
+    width: 186.643px;
     height: 96.425px;
     position: absolute;
     top: 0;
-    left: 3%;
+    left: 43%;
+    z-index: 1;
+  }
+
+  .nav__item--logo-phto {
+    width: 186.643px;
+
     z-index: 1;
   }
 

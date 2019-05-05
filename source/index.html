@@ -22,7 +22,7 @@
           <li class="nav__item nav__item--logo">
             <picture>
               <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
-              <img class="nav__logo-img" src="img/logo-sedona-tablet.svg">
+              <img class="nav__logo-img" src="img/logo-sedona-tablet.svg" width="101.668" height="83.984" alt="Логотип">
             </picture>
           </li>
           <li class="nav__item">
@@ -46,7 +46,11 @@
     </header>
     <main class="page-main">
       <div class="sedona">
-        <img class="sedona__img" src="img/bg-back-mobile@1x.jpg" width="" height="" alt="">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/bg-back-desktop@1x.jpg">
+          <source media="(min-width: 768px)" srcset="img/bg-back-tablet@1x.jpg">
+          <img class="sedona__img" src="img/bg-back-mobile@1x.jpg" width="" height="" alt="">
+        </picture>
         <div class="sedona__wrepper">
           <picture>
             <source media="(min-width: 1200px)" srcset="img/bg-intro-triangle-desktop.svg">
@@ -69,12 +73,16 @@
               <p class="advantage__number">— №1 —</p>
               <p class="advantage__description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
             </div>
-            <img class="advantage__img" src="img/main-city-mobile@1x.jpg" width="" height="" alt="">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.jpg">
+              <source media="(min-width: 768px)" srcset="img/main-city-tablet@1x.jpg">
+              <img class="advantage__img" src="img/main-city-mobile@1x.jpg" width="320" height="260" alt="">
+            </picture>
           </div>
           <div class="advantage__recommendation-wrapper">
             <div class="advantage__recommendation">
               <p class="advantage__recommendation-title">
-                <img class="advantage__recommendation-img" src="img/icon-house.svg" width="74.695" height="72.346" alt="">
+                <img class="advantage__recommendation-img" src="img/icon-house.svg" width="74.695" height="82.346" alt="">
                 <span class="advantage__recommendation-residence">Жилье</span>
               </p>
               <p class="advantage__recommendation-subtitle">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -103,7 +111,11 @@
               <p class="advantage__number">— №2 —</p>
               <p class="advantage__description advantage__description--text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
             </div>
-            <img class="advantage__img" src="img/main-bridge-mobile@1x.jpg" width="" height="" alt="">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.jpg">
+              <source media="(min-width: 768px)" srcset="img/main-bridge-tablet@2x.jpg">
+              <img class="advantage__img" src="img/main-bridge-mobile@1x.jpg" width="320" height="260" alt="">
+            </picture>
           </div>
         </article>
         <article class="advantage advantage--color-azure">
