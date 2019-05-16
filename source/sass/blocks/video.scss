@@ -1,0 +1,143 @@
+.video {
+  text-align: center;
+}
+
+.video__title {
+  margin: 0;
+  margin-top: 6px;
+  margin-bottom: 25px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+
+.video__description {
+  margin: 0;
+  margin-bottom: 34px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.video__img-wrepper {
+  position: relative;
+  text-align: center;
+}
+
+.video__pult {
+  width: 280px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: -47px;
+  background-color: #242112;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.video__bar {
+  position: absolute;
+  width: 229px;
+  height: 3px;
+  margin-left: 24px;
+  margin-top: 16px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.video__slider {
+  width: 9px;
+  height: 10px;
+  margin-left: 33px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.video__pult-2 {
+  width: 280px;
+  height: 66px;
+  margin: 0 auto;
+  background-image: url("../../img/icon-video-fullscreen.svg"),
+    url("../../img/icon-video-replay.svg"),
+    url("../../img/icon-video-subtitles.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 237px 21px, 24px 21px, 175px 21px;
+
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+  .video {
+    margin-bottom: 40px;
+  }
+
+  .video__img {
+    width: 648px;
+    height: 499px;
+  }
+
+  .video__bar {
+    width: 389px;
+    height: 3px;
+    margin-left: 94px;
+    margin-top: 50px;
+  }
+
+  .video__slider {
+    margin-left: 113px;
+  }
+
+  .video__pult-2 {
+    display: none;
+  }
+
+  .video__pult {
+    width: 648px;
+    height: 93px;
+    margin-top: -95px;
+    background-image: url("../../img/replay.png"),
+      url("../../img/fullscreen.png"),
+      url("../../img/subtitles.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 33px 39px, 586px 39px, 525px 39px;
+  }
+
+  .video__title {
+    margin-top: 68px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  .video__description {
+    width: 455px;
+    margin: auto;
+    margin-bottom: 74px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video__img {
+    width: 800px;
+    height: 500px;
+  }
+
+  .video__pult {
+    width: 800px;
+    height: 90px;
+    background-position: 32px 30px, 736px 30px, 675px 30px;
+  }
+
+  .video__bar {
+    width: 540px;
+    margin-top: 42px;
+  }
+}

@@ -1,0 +1,31 @@
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+  margin-top: 44px;
+}
+
+.footer-copyright__title {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .footer-copyright {
+    margin-top: 0;
+  }
+
+  .footer-copyright__link:hover svg {
+    fill: #81b3d2;
+  }
+
+  .footer-copyright__link:active svg {
+    background-color: #000000;
+    opacity: 0.3;
+  }
+}

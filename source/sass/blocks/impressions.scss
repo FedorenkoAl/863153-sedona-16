@@ -1,0 +1,139 @@
+.impressions {
+  margin-top: 33px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.impressions__title {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 38px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.impressions__text {
+  position: relative;
+  padding-left: 94px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.impressions__wrepper-input {
+  margin: 0;
+  margin-bottom: 43px;
+}
+
+.impressions__text::before {
+  content: "";
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: -14px;
+  left: 22px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+
+[type="radio"]:checked + .impressions__text::after {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: -1px;
+  left: 35px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.impressions__text:hover::before {
+  background-color: #e5e5e5;
+}
+
+.impressions__text:active::before {
+  background-color: #d5d5d5;
+}
+
+@media (min-width: 768px) {
+  .impressions {
+    order: -2;
+    padding-right: 48px;
+    border-right: 1px solid #dbdbdb;
+    border-top: none;
+  }
+
+  .impressions__title {
+    margin-top: 1px;
+    margin-bottom: 74px;
+    padding-left: 60px;
+    font-size: 18px;
+  }
+
+  .impressions__text {
+    padding-left: 130px;
+  }
+
+  .impressions__wrepper-input {
+    margin-bottom: 52px;
+  }
+
+  .impressions__text::before {
+    top: -15px;
+    left: 62px;
+  }
+
+  [type="radio"]:checked + .impressions__text::after {
+    top: -1px;
+    left: 75px;
+  }
+
+  .impressions__text:hover::before {
+    background-color: #e5e5e5;
+  }
+
+  .impressions__text:active::before {
+    background-color: #d5d5d5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .impressions {
+    padding-right: 122px;
+  }
+
+  .impressions__title {
+    margin-top: -12px;
+    padding-left: 200px;
+  }
+
+  .impressions__text {
+    padding-left: 197px;
+  }
+
+  .impressions__text::before {
+    top: -13px;
+    left: 124px;
+  }
+
+  [type="radio"]:checked + .impressions__text::after {
+    top: -1px;
+    left: 139px;
+  }
+
+  .impressions__text:hover::before {
+    background-color: #e5e5e5;
+  }
+
+  .impressions__text:active::before {
+    background-color: #d5d5d5;
+  }
+
+  .impressions__text--checked:active::after {
+    opacity: 0.4;
+  }
+}
