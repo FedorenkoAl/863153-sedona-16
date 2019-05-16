@@ -62,8 +62,8 @@
   height: 66px;
   margin: 0 auto;
   background-image: url("../../img/icon-video-fullscreen.svg"),
-  url("../../img/icon-video-replay.svg"),
-  url("../../img/icon-video-subtitles.svg");
+    url("../../img/icon-video-replay.svg"),
+    url("../../img/icon-video-subtitles.svg");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 237px 21px, 24px 21px, 175px 21px;
 
@@ -95,13 +95,13 @@
     display: none;
   }
 
-  .video__pult  {
+  .video__pult {
     width: 648px;
     height: 93px;
     margin-top: -95px;
     background-image: url("../../img/replay.png"),
-    url("../../img/fullscreen.png"),
-    url("../../img/subtitles.png");
+      url("../../img/fullscreen.png"),
+      url("../../img/subtitles.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 33px 39px, 586px 39px, 525px 39px;
   }
