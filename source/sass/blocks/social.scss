@@ -1,0 +1,36 @@
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+  background-color: #81b3d2;
+}
+
+.social__link {
+  margin: 0;
+  padding: 0;
+  text-decoration:none;
+}
+
+.social__link svg {
+  width: 18px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .social__item:hover {
+    background-color: #669ec0;
+  }
+
+  .social__item:active svg {
+    opacity: 0.4;
+  }
+}

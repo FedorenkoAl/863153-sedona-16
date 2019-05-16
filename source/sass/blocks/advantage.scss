@@ -7,6 +7,16 @@
   text-align: center;
 }
 
+.advantage__triangle-wrapper {
+  width: 100%;
+  position: absolute;
+  top: -13px;
+}
+
+.advantage__triangle {
+  // width: 100%;
+}
+
 .advantage__title {
   margin: 0;
   font-size: 16px;
@@ -28,6 +38,7 @@
 }
 
 .advantage__container--city {
+
   padding-top: 62px;
   padding-bottom: 40px;
   background-color: #81b3d2;
@@ -59,6 +70,7 @@
 }
 
 .advantage__wrapper {
+  position: relative;
   text-align: center;
 }
 
@@ -124,15 +136,8 @@
 .advantage__recommendation-wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 18px;
+  padding-top: 22px;
   padding-bottom: 14px;
-}
-
-.advantage__recommendation-img {
-  width: 39px;
-  height: 37px;
-  margin-left: 20px;
-  margin-right: 12px;
 }
 
 .advantage__recommendation-title {
@@ -143,6 +148,14 @@
   font-size: 18px;
   font-weight: 700;
   color: #000000;
+}
+
+.advantage__recommendation-title svg {
+  width: 39px;
+  height: 37px;
+  margin-left: 20px;
+  margin-right: 12px;
+  fill: #81b3d2;
 }
 
 .advantage__recommendation-subtitle {
@@ -164,6 +177,10 @@
     display: flex;
   }
 
+  .advantage__triangle-wrapper {
+    display: none;
+  }
+
   .advantage__container {
     display: flex;
     flex-direction: column;
@@ -173,7 +190,7 @@
   }
 
   .advantage__container--city {
-    padding-top: 44px;
+    padding-top: 42px;
     background-color: #81b3d2;
 
     & .advantage__title {
@@ -196,8 +213,7 @@
   }
 
   .advantage__container--order {
-    padding-top: 65px;
-    padding-bottom: 10px;
+    padding-top: 46px;
     flex: 1;
     order: 1;
 
@@ -208,7 +224,7 @@
     }
 
     & .advantage__number {
-      margin-top: 10px;
+      margin-top: 8px;
       margin-bottom: 22px;
     }
 
@@ -225,14 +241,19 @@
     flex: 2;
   }
 
+  .advantage__img--order {
+    width: 512px;
+    height: 257px;
+  }
+
   .advantage__recommendation-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 80px;
-    padding-bottom: 58px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-top: 36px;
+    padding-bottom: 60px;
+    padding-left: 33px;
+    padding-right: 36px;
   }
 
   .advantage__recommendation {
@@ -244,30 +265,38 @@
     order: 1;
   }
 
-  .advantage__recommendation-img {
-    margin-bottom: 35px;
-  }
-
   .advantage__recommendation-title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-size: 18px;
+  }
+
+  .advantage__recommendation-title svg {
+    width: 75px;
+    height: 72px;
+    fill: #81b3d2;
+    margin-bottom: 29px;
   }
 
   .advantage__recommendation-subtitle {
     width: 190px;
     margin: 0;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
+    font-size: 13px;
   }
 
   .advantage--color-azure {
     display: flex;
     flex: nowrap;
+    padding-bottom: 18px;
   }
 
   .advantage__container--area {
-    padding-top: 55px;
+    padding-top: 48px;
     color: #000000;
 
     & .advantage__title {
@@ -284,13 +313,12 @@
 
     & .advantage__description {
       width: 194px;
-      padding-bottom: 41px;
       border: none;
     }
   }
 
   .advantage__container--road {
-    padding-top: 55px;
+    padding-top: 48px;
     color: #000000;
 
     & .advantage__title {
@@ -307,13 +335,12 @@
 
     & .advantage__description {
       width: 194px;
-      padding-bottom: 27px;
       border: none;
     }
   }
 
   .advantage__container--tourist {
-    padding-top: 55px;
+    padding-top: 48px;
     color: #000000;
 
     & .advantage__title {
@@ -330,14 +357,17 @@
 
     & .advantage__description {
       width: 194px;
-      padding-bottom: 27px;
     }
   }
 }
 
 @media (min-width: 1200px) {
+  .advantage__triangle-wrapper {
+    display: none;
+  }
+
   .advantage__container--city {
-    padding-top: 54px;
+    padding-top: 56px;
     background-color: #81b3d2;
 
     & .advantage__title {
@@ -354,21 +384,20 @@
     & .advantage__description {
       width: 310px;
       margin: 0;
-      padding-bottom: 10px;
       line-height: 21px;
     }
   }
 
   .advantage__img {
     width: 800px;
-    height: 256px;
+    height: 259px;
   }
 
   .advantage__recommendation-wrapper {
-    margin-top: 51px;
-    padding-left: 58px;
-    padding-right: 58px;
-    margin-bottom: 13px;
+    margin-top: 38px;
+    padding-left: 50px;
+    padding-right: 101px;
+    margin-bottom: 18px;
   }
 
   .advantage__recommendation-title {
@@ -378,14 +407,21 @@
   }
 
   .advantage__recommendation-subtitle {
-    width: 286px;
+    width: 296px;
     margin: 0;
-    margin-top: 22px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .advantage__recommendation-subtitle--souvenirs {
+    width: 199px;
+    font-size: 13px;
     text-align: center;
   }
 
-  .advantage__recommendation-img {
-    margin-bottom: 57px;
+  .advantage__recommendation-title--food  {
+    margin-right: 45px;
   }
 
   .advantage__container--order {
@@ -411,8 +447,12 @@
     }
   }
 
+  .advantage--color-azure {
+    padding-bottom: 32px;
+  }
+
   .advantage__container--area {
-    padding-top: 45px;
+    padding-top: 42px;
     color: #000000;
 
     & .advantage__title {
@@ -429,13 +469,12 @@
 
     & .advantage__description {
       width: 244px;
-      padding-bottom: 41px;
       border: none;
     }
   }
 
   .advantage__container--road {
-    padding-top: 45px;
+    padding-top: 42px;
     color: #000000;
 
     & .advantage__title {
@@ -452,13 +491,12 @@
 
     & .advantage__description {
       width: 244px;
-      padding-bottom: 27px;
       border: none;
     }
   }
 
   .advantage__container--tourist {
-    padding-top: 45px;
+    padding-top: 47px;
     color: #000000;
 
     & .advantage__title {
@@ -475,7 +513,6 @@
 
     & .advantage__description {
       width: 244px;
-      padding-bottom: 27px;
     }
   }
 }
