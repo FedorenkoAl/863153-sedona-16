@@ -32,6 +32,14 @@
   text-decoration: none;
 }
 
+.hotel__button:hover {
+  background-color: #669ec0;
+}
+
+.hotel__button:active {
+  background-color: #5496bd;
+}
+
 @media (min-width: 768px) {
   .hotel__title {
     margin-top: 54px;
@@ -50,6 +58,14 @@
 
   .hotel__button {
     padding: 19px 137px;
+  }
+
+  .hotel__button:hover {
+    background-color: #669ec0;
+  }
+
+  .hotel__button:active {
+    background-color: #5496bd;
   }
 }
 

@@ -11,17 +11,13 @@
   text-align: center;
 }
 
-.photo-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .photo-block__width {
+  text-align: center;
   margin-bottom: 40px;
 }
 
 .photo-block {
+  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -56,6 +52,7 @@
 
 .photo-block__like {
   margin: 0;
+  text-align: left;
 }
 
 .photo-block__like-number {
@@ -198,8 +195,8 @@
   .photo-block__wrapper {
     position: absolute;
     width: 400px;
-    top: 195px;
+    top: 190px;
     background-color: #39391f;
-    opacity: 0.3;
+    opacity: 0.6;
   }
 }
