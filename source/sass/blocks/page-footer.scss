@@ -1,8 +1,13 @@
 .page-footer {
+  margin-top: 72px;
   background-color: #ffffff;
 }
 
 .page-footer__title {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 21px;
   text-align: center;
   color: #000000;
 }
@@ -13,30 +18,14 @@
   list-style: none;
 }
 
-.social__item {
-  text-align: center;
-}
-
-.footer-copyright {
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #000000;
-}
-
 @media (min-width: 768px) {
   .page-footer {
     width: 648px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: auto;
-    padding: 0 60px;
-  }
-
-  .social {
-    display: flex;
+    padding: 10px 60px;
   }
 }
 
