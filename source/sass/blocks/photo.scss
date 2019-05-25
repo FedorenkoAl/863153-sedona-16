@@ -199,7 +199,7 @@
       width: 1200px;
     }
 
-    & .photo__img-wrapper:before {
+    & .photo__img-wrapper::before {
       position: absolute;
       content: "";
       top: 322px;
@@ -207,7 +207,7 @@
       height: 76px;
       background-color: #39391f;
       opacity: 0.4;
-  }
+    }
 
     & .photo__img {
       width: 1200px;
