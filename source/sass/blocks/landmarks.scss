@@ -101,7 +101,6 @@
     margin: 0;
     margin-top: 0;
     margin-left: 143px;
-
   }
 
   .landmarks__wrepper-input:nth-child(3) {
@@ -172,7 +171,6 @@
     margin: 0 auto;
     margin-top: 57px;
     padding: 0;
-
   }
 
   .landmarks__title {
@@ -237,6 +235,5 @@
   [type="checkbox"]:checked + .landmarks__text:active::before {
     background-color: #a4a4a4;
     opacity: 0.3;
-
   }
 }

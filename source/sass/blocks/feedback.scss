@@ -221,6 +221,7 @@
   .feedback {
     margin-bottom: 60px;
   }
+
   .feedback__title {
     margin-top: 76px;
     font-size: 30px;
@@ -270,7 +271,7 @@
     flex-direction: column;
     border: none;
     margin-top: 16px;
-    padding-left: 0px;
+    padding-left: 0;
     order: -1;
   }
 
@@ -303,7 +304,7 @@
   }
 
   .feedback__name--name {
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 19px;
   }
 
@@ -328,12 +329,12 @@
     height: 63px;
   }
 
-  .feedback__wrepper-input--mail::before  {
+  .feedback__wrepper-input--mail::before {
     height: 63px;
   }
 
   .feedback__form-button {
-    margin-top: 0px;
+    margin-top: 0;
     padding: 16px 70px;
   }
 
@@ -373,7 +374,7 @@
   .feedback__familiarize-wrepper {
     width: 520px;
     margin-top: 4px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .feedback__familiarize {
@@ -382,7 +383,7 @@
   }
 
   .feedback__name--name {
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 25px;
   }
 
@@ -440,10 +441,6 @@
     padding-top: 20px;
   }
 
-  .feedback__contact-text--mail {
-    padding-right: 15px;
-  }
-
   .feedback__contact-input {
     padding-top: 20px;
     padding-left: 21px;
@@ -466,6 +463,7 @@
   .feedback__contact-text--mail {
     width: 170px;
     padding-top: 20px;
+    padding-right: 15px;
   }
 
   .feedback__wrepper-input--phone::before {

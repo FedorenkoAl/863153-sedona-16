@@ -3,12 +3,13 @@
   min-width: 320px;
   height: 390px;
   background-image: url("../img/text-sedona-index.svg"),
-  url("../img/bg-intro-triangle-mobile.svg"),
-  url("../img/bg-back-mobile@1x.jpg");
+    url("../img/bg-intro-triangle-mobile.svg"),
+    url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center 90px, center bottom, center;
   background-size: 282px 214px, 320px 26px, 768px 389px;
   background-color: #deecf5;
+
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/text-sedona-index.svg"),
       url("../img/bg-intro-triangle-mobile.svg"),
@@ -70,6 +71,7 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 460px 350px, 768px 57px, 1200px 518px;
     background-position: center 75px, center bottom, center;
+
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/text-sedona-index.svg"),
         url("../img/bg-intro-triangle-tablet.svg"),
@@ -87,6 +89,7 @@
     background-size: 460px 350px, 768px 57px, 768px 518px;
     background-position: center -45px, center bottom, center;
     height: 285px;
+
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/text-sedona.svg"),
         url("../img/bg-intro-triangle-tablet.svg"),
@@ -109,6 +112,7 @@
     background-color: #6e93be;
     background-size: 460px 350px, 1200px 57px, 1200px 518px;
     background-position: center 75px, center bottom, center;
+
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/text-sedona-index.svg"),
         url("../img/bg-intro-triangle-desktop.svg"),
@@ -126,6 +130,7 @@
       url("../img/bg-back-desktop@1x.jpg");
     background-size: 460px 350px, 1200px 57px, 1200px 518px;
     background-position: center -35px, center bottom, center;
+
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/text-sedona.svg"),
         url("../img/bg-intro-triangle-desktop.svg"),

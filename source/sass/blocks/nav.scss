@@ -9,8 +9,8 @@
   color: #669ec0;
 }
 
-.nav__link:active  {
-  color:  #5496bd;
+.nav__link:active {
+  color: #5496bd;
 }
 
 .nav__item--active {
@@ -63,7 +63,7 @@
 @media (min-width: 768px) {
   .nav {
     padding-left: 2px;
-    padding-right: 0px;
+    padding-right: 0;
     z-index: 1;
   }
 
