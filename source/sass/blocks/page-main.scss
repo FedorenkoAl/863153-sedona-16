@@ -10,19 +10,19 @@
 }
 
 .page-main__title {
-  width: 284px;
-  font-size: 16px;
+  width: 274px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 25px;
   margin: auto;
   margin-top: 41px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .page-main__subtitle {
   width: 300px;
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -37,7 +37,7 @@
     width: 490px;
     margin: auto;
     margin-top: 49px;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 26px;
   }
 
@@ -51,8 +51,8 @@
 
 @media (min-width: 1200px) {
   .page-main__title {
-    margin-top: 50px;
-    font-size: 18px;
+    margin-top: 51px;
+    font-size: 21px;
     line-height: 26px;
   }
 

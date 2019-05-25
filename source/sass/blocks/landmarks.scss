@@ -1,41 +1,37 @@
 .landmarks {
+  width: 280px;
+  margin: 0 auto;
   margin-top: 34px;
   border-top: 1px solid #dbdbdb;
 }
 
 .landmarks__title {
   margin: 0;
-  margin-top: 14px;
+  margin-top: 16px;
+  margin-bottom: 30px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.landmarks__wrepper1 {
-  margin-top: 35px;
-}
-
 .landmarks__wrepper-input:nth-child(2) {
   margin: 0;
-  margin-top: 50px;
-}
-
-.landmarks__wrepper2 {
   margin-top: 56px;
 }
 
-.landmarks__wrepper-input:nth-child(5) {
-  margin-top: 14px;
+.landmarks__wrepper-input:nth-child(3) {
+  margin-top: 53px;
+  margin-bottom: 54px;
 }
 
 .landmarks__text {
   position: relative;
-  margin-left: 95px;
+  margin-left: 75px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
 }
@@ -43,26 +39,27 @@
 .landmarks__text::before {
   content: "";
   position: absolute;
-  width: 56px;
-  height: 56px;
+  width: 59px;
+  height: 59px;
   top: -18px;
   left: -80px;
   background-color: #f2f2f2;
 }
 
 [type="checkbox"]:checked + .landmarks__text::before {
-  background-image: url("../../img/icon-tick.svg");
+  background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #f2f2f2;
 }
 
 .landmarks__emotions {
   display: block;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 14px;
   margin-bottom: 16px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
   text-align: center;
@@ -71,7 +68,7 @@
 
 .landmarks__emotions-wrepper {
   margin: 0 auto;
-  margin-top: 46px;
+  margin-top: 44px;
   text-align: center;
   border-top: 1px solid #dbdbdb;
 }
@@ -79,10 +76,10 @@
 .landmarks__textarea {
   background-color: #f2f2f2;
   width: 260px;
-  height: 136px;
-  padding-top: 13px;
-  padding-left: 16px;
-  font-size: 16px;
+  height: 140px;
+  padding-top: 18px;
+  padding-left: 18px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
   border: none;
@@ -90,34 +87,49 @@
 
 @media (min-width: 768px) {
   .landmarks {
+    width: 648px;
+    margin: 0 auto;
     margin-top: 52px;
   }
 
+  .landmarks__wrepper-input:nth-child(1) {
+    margin-left: 90px;
+    margin-bottom: 63px;
+  }
+
+  .landmarks__wrepper-input:nth-child(2) {
+    margin: 0;
+    margin-top: 0;
+    margin-left: 143px;
+
+  }
+
+  .landmarks__wrepper-input:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 90px;
+    margin-right: 160px;
+  }
+
+  .landmarks__text {
+    margin-left: 0;
+  }
+
   .landmarks__wrepper {
+    width: 484px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    padding-left: 135px;
-  }
-
-  .landmarks__wrepper1 {
-    margin-top: 60px;
-    margin-right: 47px;
-  }
-
-  .landmarks__wrepper2 {
-    margin-top: 60px;
-  }
-
-  .landmarks__wrepper--bottom {
-    margin-bottom: 60px;
+    flex-wrap: wrap;
   }
 
   .landmarks__title {
     width: 278px;
-    margin: auto;
-    margin-top: -30px;
+    margin: 0 auto;
+    margin-top: -22px;
+    margin-bottom: 54px;
+    margin-left: 165px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 700;
     line-height: 26px;
     background-color: #ffffff;
@@ -129,19 +141,21 @@
   }
 
   .landmarks__emotions {
-    width: 250px;
+    width: 280px;
     margin: auto;
-    margin-top: -32px;
+    margin-top: -30px;
     margin-bottom: 35px;
-    padding: 20px 40px;
-    font-size: 18px;
+    padding: 20px 30px;
+    font-size: 21px;
     font-weight: 700;
     line-height: 26px;
     background-color: #ffffff;
   }
 
   .landmarks__emotions-wrepper {
-    margin-top: 95px;
+    width: 648px;
+    margin: 0 auto;
+    margin-top: 75px;
     border-top: 1px solid #dbdbdb;
   }
 
@@ -154,60 +168,75 @@
 
 @media (min-width: 1200px) {
   .landmarks {
-    margin-top: 55px;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 57px;
+    padding: 0;
+
   }
 
   .landmarks__title {
-    margin-top: -30px;
+    margin-top: -27px;
+    margin-bottom: 57px;
+    margin-left: 280px;
+    padding: 0 60px;
   }
 
-  .landmarks__wrepper1 {
+  .landmarks__wrepper {
+    width: 880px;
+    margin: 0 auto;
     display: flex;
-    margin-top: 52px;
-    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 79px;
   }
 
-  .landmarks__wrepper2 {
-    display: flex;
-    margin-top: 57px;
-  }
-
-  .landmarks__wrepper-input:nth-child(1) {
-    margin-right: 40px;
+ .landmarks__wrepper-input:nth-child(1) {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .landmarks__wrepper-input:nth-child(2) {
     margin-top: 0;
-    margin-right: 10px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
-  .landmarks__wrepper--bottom {
-    margin-bottom: 0;
-  }
-
-  .landmarks__wrepper {
-    width: 980px;
-    padding-left: 105px;
+  .landmarks__wrepper-input:nth-child(3) {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .landmarks__emotions {
-    margin-top: -35px;
+    margin-top: -33px;
   }
 
   .landmarks__textarea {
-    width: 940px;
+    width: 960px;
     height: 149px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  .landmarks__emotions-wrepper {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-top: 1px solid #dbdbdb;
   }
 
   .landmarks__text:hover::before {
-    background-color: #d5d5d5;
+    background-color: #e5e5e5;
   }
 
   .landmarks__text:active::before {
     background-color: #d5d5d5;
   }
 
-  .landmarks__text--label:active::before {
-    opacity: 0.4;
+  [type="checkbox"]:checked + .landmarks__text:active::before {
+    background-color: #a4a4a4;
+    opacity: 0.3;
+
   }
 }

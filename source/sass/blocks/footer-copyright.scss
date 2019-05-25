@@ -3,12 +3,12 @@
   justify-content: center;
   align-self: center;
   margin: 0;
-  margin-top: 44px;
+  margin-top: 40px;
 }
 
 .footer-copyright__title {
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
@@ -17,7 +17,12 @@
 
 @media (min-width: 768px) {
   .footer-copyright {
-    margin-top: 0;
+    margin-top: 9px;
+  }
+
+  .footer-copyright__title {
+    margin-right: 13px;
+    font-size: 14px;
   }
 
   .footer-copyright__link:hover svg {
@@ -27,5 +32,10 @@
   .footer-copyright__link:active svg {
     background-color: #000000;
     opacity: 0.3;
+  }
+}
+
+@media (min-width: 1200px) {
+   .footer-copyright {
   }
 }

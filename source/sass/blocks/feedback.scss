@@ -1,3 +1,7 @@
+.feedback {
+  margin-bottom: 73px;
+}
+
 .feedback__title {
   margin: 0;
   margin-top: 39px;
@@ -14,39 +18,37 @@
   margin: 0 auto;
   margin-top: 27px;
   color: #000000;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .feedback__familiarize {
   margin: 0 auto;
-  margin-top: 19px;
-  margin-left: -15px;
-  margin-bottom: 18px;
+  margin-top: 17px;
+  margin-left: 70px;
+  margin-bottom: 21px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .feedback__familiarize-wrepper {
-  margin-top: 18px;
-  padding-left: 19px;
+  margin: 0 auto;
+  margin-top: 17px;
+  padding-left: 20px;
   padding-bottom: 13px;
   border-top: 1px solid #dbdbdb;
-}
-
-.feedback__label {
-  margin: 0;
 }
 
 .feedback__name {
   padding-right: 11px;
   color: #333333;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
@@ -63,20 +65,20 @@
 }
 
 .feedback__input:active {
-  border: 4px solid #e5e5e5;
+  border: 1px solid #e5e5e5;
   background-color: #ffffff;
 }
 
 ::-webkit-input-placeholder {
   margin: 0;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
 }
 
 .feedback__input--name {
-  width: 210px;
+  width: 230px;
   padding-top: 20px;
   padding-left: 21px;
   padding-bottom: 20px;
@@ -84,7 +86,7 @@
 }
 
 .feedback__input--surname {
-  width: 172px;
+  width: 192px;
   padding-top: 20px;
   padding-left: 21px;
   padding-bottom: 20px;
@@ -92,7 +94,7 @@
 }
 
 .feedback__input--patronymic {
-  width: 174px;
+  width: 194px;
   padding-top: 20px;
   padding-left: 21px;
   padding-bottom: 20px;
@@ -101,10 +103,10 @@
 
 .feedback__contact {
   margin: 0;
-  margin-top: 20px;
+  margin-top: 19px;
   margin-bottom: 20px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
@@ -128,7 +130,7 @@
 
 .feedback__contact-text--phone,
 .feedback__contact-text--mail {
-  padding-left: 19px;
+  padding-left: 21px;
 }
 
 .feedback__wrepper-input--errop {
@@ -136,16 +138,20 @@
 }
 
 .feedback__contact-input {
-  width: 260px;
-  padding-top: 24px;
+  width: 280px;
+  padding-top: 19px;
   padding-left: 21px;
   padding-bottom: 18px;
   margin: auto;
-  margin-bottom: -4px;
+  margin-top: 6px;
   background-color: #f2f2f2;
   z-index: 0;
   border: none;
   box-sizing: border-box;
+}
+
+.feedback__contact-input--phone {
+  padding-bottom: 15px;
 }
 
 .feedback__wrepper-input {
@@ -157,11 +163,11 @@
   position: absolute;
   content: "";
   width: 58px;
-  height: 58px;
-  top: 27px;
+  height: 56px;
+  top: 32px;
   right: 0;
   background-color: #e6e6e6;
-  background-image: url("../../img/icon-phone.svg");
+  background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 99;
@@ -171,11 +177,11 @@
   position: absolute;
   content: "";
   width: 58px;
-  height: 58px;
-  top: 28px;
+  height: 56px;
+  top: 32px;
   right: 0;
   background-color: #e6e6e6;
-  background-image: url("../../img/icon-mail.svg");
+  background-image: url("../img/icon-mail.svg");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 99;
@@ -188,10 +194,10 @@
 }
 
 .feedback__form-button {
-  margin-top: 53px;
-  padding: 16px 45px;
+  margin-top: 50px;
+  padding: 16px 48px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 26px;
   border: none;
@@ -207,21 +213,23 @@
   background-color: #669ec0;
 }
 
-
 .feedback__buttom-instruction {
   display: none;
 }
 
 @media (min-width: 768px) {
+  .feedback {
+    margin-bottom: 60px;
+  }
   .feedback__title {
     margin-top: 76px;
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .feedback__description {
-    width: 460px;
-    margin-top: 27px;
-    font-size: 16px;
+    width: 445px;
+    margin-top: 33px;
+    font-size: 14px;
   }
 
   .feedback__wrepper {
@@ -242,13 +250,13 @@
     margin-top: -10px;
     margin-bottom: 23px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 21px;
     background-color: #ffffff;
     order: 2;
   }
 
   .feedback__contact-text {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .feedback__wrepper-input--errop {
@@ -256,18 +264,21 @@
   }
 
   .feedback__familiarize-wrepper {
+    width: 324px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     border: none;
-    padding-left: 52px;
+    margin-top: 16px;
+    padding-left: 0px;
     order: -1;
   }
 
   .feedback__familiarize {
     margin-top: 16px;
     margin-bottom: 56px;
-    margin-left: 2px;
-    font-size: 18px;
+    margin-left: 19px;
+    font-size: 21px;
   }
 
   .feedback__input:hover {
@@ -280,31 +291,49 @@
   }
 
   .feedback__input--name {
-    width: 192px;
+    width: 217px;
   }
 
   .feedback__input--surname {
-    width: 158px;
+    width: 180px;
   }
 
   .feedback__input--patronymic {
-    width: 155px;
+    width: 182px;
   }
 
-  .feedback__name {
-    margin-left: 7px;
+  .feedback__name--name {
+    margin-right: 0px;
+    margin-left: 19px;
+  }
+
+  .feedback__name--surname {
+    margin-left: 20px;
+  }
+
+  .feedback__name--patronymic {
+    margin-left: 20px;
   }
 
   .feedback__contact-input {
-    width: 628px;
+    width: 648px;
     padding-top: 22px;
     padding-left: 21px;
     padding-bottom: 22px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
+  }
+
+  .feedback__wrepper-input--phone::before {
+    width: 58px;
+    height: 63px;
+  }
+
+  .feedback__wrepper-input--mail::before  {
+     height: 63px;
   }
 
   .feedback__form-button {
-    margin-top: -2px;
+    margin-top: 0px;
     padding: 16px 70px;
   }
 
@@ -316,12 +345,12 @@
     background-color: #669ec0;
   }
 
-
   .feedback__buttom-instruction {
     display: block;
     margin: 0;
+    margin-left: 160px;
     color: #333333;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     text-transform: uppercase;
@@ -330,8 +359,8 @@
   .feedback__wrepper-button {
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 64px;
+    justify-content: center;
+    margin-top: 57px;
     padding: 0 60px;
   }
 }
@@ -342,13 +371,27 @@
   }
 
   .feedback__familiarize-wrepper {
-    margin-top: 5px;
-    padding-left: 79px;
+    width: 520px;
+    margin-top: 4px;
+    padding-left: 0px;
   }
 
   .feedback__familiarize {
     margin-bottom: 54px;
-    margin-left: 2px;
+    margin-left: 24px;
+  }
+
+  .feedback__name--name {
+    margin-right: 0px;
+    margin-left: 25px;
+  }
+
+  .feedback__name--surname {
+    margin-left: 25px;
+  }
+
+  .feedback__name--patronymic {
+    margin-left: 26px;
   }
 
   .feedback__input:hover {
@@ -361,15 +404,15 @@
   }
 
   .feedback__input--name {
-    width: 321px;
+    width: 351px;
   }
 
   .feedback__input--surname {
-    width: 284px;
+    width: 310px;
   }
 
   .feedback__input--patronymic {
-    width: 284px;
+    width: 314px;
   }
 
   .feedback__spanphone {
@@ -378,10 +421,11 @@
 
   .feedback__contact-wrepper {
     width: 960px;
+    padding-right: 7px;
   }
 
   .feedback__contact-wrepper ::-webkit-input-placeholder {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .feedback__contact-wrepper2 {
@@ -392,24 +436,23 @@
 
   .feedback__contact-text--phone {
     padding-left: 3px;
-    padding-right: 15px;
+    padding-right: 13px;
     padding-top: 20px;
   }
 
-  .feedback__contact-input {
-    width: 260px;
-    padding-top: 24px;
-    padding-left: 21px;
-    padding-bottom: 16px;
+  .feedback__contact-text--mail {
+    padding-right: 15px;
   }
 
-  .feedback__wrepper-input {
-    display: flex;
-    align-items: flex-start;
+  .feedback__contact-input {
+    padding-top: 20px;
+    padding-left: 21px;
+    padding-bottom: 20px;
+    margin-top: 3px;
   }
 
   .feedback__contact-input--phone {
-    width: 295px;
+    width: 313px;
   }
 
   .feedback__wrepper-input--errop {
@@ -417,7 +460,7 @@
   }
 
   .feedback__contact-input--mail {
-    width: 290px;
+    width: 310px;
   }
 
   .feedback__contact-text--mail {
@@ -426,12 +469,16 @@
   }
 
   .feedback__wrepper-input--phone::before {
-    top: 0;
+    width: 58px;
+    height: 58px;
+    top: 5px;
     right: 0;
   }
 
   .feedback__wrepper-input--mail::before {
-    top: 0;
+    width: 58px;
+    height: 58px;
+    top: 5px;
     right: 0;
   }
 
@@ -452,9 +499,17 @@
     background-color: #669ec0;
   }
 
+  .feedback__form-button--disabled:disabled {
+    background-color: #e5e5e5;
+  }
+
   .feedback__wrepper-button {
     margin-top: 48px;
     margin-bottom: 78px;
     padding: 0 120px;
+  }
+
+  .feedback__buttom-instruction {
+    margin-left: 310px;
   }
 }

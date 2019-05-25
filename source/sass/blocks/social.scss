@@ -9,18 +9,37 @@
   align-items: center;
   width: 46px;
   height: 48px;
-  margin-right: 6px;
   background-color: #81b3d2;
+}
+
+.social__item--facebook,
+.social__item--photo-facebook,
+.social__item--form-facebook {
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .social__link {
   margin: 0;
   padding: 0;
+
   text-decoration: none;
 }
 
-.social__link svg {
+.social__link--vkontakte svg {
   width: 18px;
+  height: 14px;
+  fill: #ffffff;
+}
+
+.social__link--facebook svg {
+  width: 9px;
+  height: 18px;
+  fill: #ffffff;
+}
+
+.social__link--YouTube svg {
+  width: 20px;
   height: 14px;
   fill: #ffffff;
 }

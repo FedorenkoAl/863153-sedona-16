@@ -5,23 +5,25 @@
 
 .video__title {
   margin: 0;
-  margin-top: 6px;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 28px;
   color: #000000;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 26px;
   text-align: center;
 }
 
 .video__description {
-  margin: 0;
+  margin: 0 auto;
+  width: 272px;
   margin-bottom: 34px;
   color: #000000;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .video__img-wrepper {
@@ -62,9 +64,9 @@
   width: 280px;
   height: 66px;
   margin: 0 auto;
-  background-image: url("../../img/icon-video-fullscreen.svg"),
-    url("../../img/icon-video-replay.svg"),
-    url("../../img/icon-video-subtitles.svg");
+  background-image: url("../img/icon-video-fullscreen.svg"),
+    url("../img/icon-video-replay.svg"),
+    url("../img/icon-video-subtitles.svg");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 237px 21px, 24px 21px, 175px 21px;
 
@@ -85,7 +87,7 @@
     width: 389px;
     height: 3px;
     margin-left: 94px;
-    margin-top: 50px;
+    margin-top: 46px;
   }
 
   .video__slider {
@@ -100,27 +102,28 @@
     width: 648px;
     height: 93px;
     margin-top: -95px;
-    background-image: url("../../img/replay.png"),
-      url("../../img/fullscreen.png"),
-      url("../../img/subtitles.png");
+   background-image: url("../img/replay.png"),
+      url("../img/fullscreen.png"),
+      url("../img/subtitles.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 33px 39px, 586px 39px, 525px 39px;
+    background-position: 34px 35px, 586px 35px, 525px 35px;
+    z-index: 2;
   }
 
   .video__title {
     margin-top: 64px;
-    margin-bottom: 28px;
-    font-size: 26px;
+    margin-bottom: 31px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
   }
 
   .video__description {
-    width: 455px;
+    width: 440px;
     margin: auto;
     margin-bottom: 74px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
   }

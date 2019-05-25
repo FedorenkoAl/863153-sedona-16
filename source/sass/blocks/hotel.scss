@@ -7,9 +7,9 @@
 
 .hotel__title {
   margin: 0;
-  margin-top: 26px;
+  margin-top: 28px;
   color: #000000;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 26px;
 }
@@ -17,15 +17,15 @@
 .hotel__description {
   width: 295px;
   margin: 0 auto;
-  margin-top: 22px;
-  margin-bottom: 48px;
+  margin-top: 20px;
+  margin-bottom: 53px;
   line-height: 24px;
 }
 
 .hotel__button {
-  padding: 19px 47px;
+  padding: 14px 47px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 26px;
   background-color: #81b3d2;
@@ -43,12 +43,12 @@
 @media (min-width: 768px) {
   .hotel__title {
     margin-top: 54px;
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .hotel__description {
     width: 493px;
-    margin-top: 28px;
+    margin-top: 30px;
     margin-bottom: 60px;
   }
 
@@ -57,7 +57,11 @@
   }
 
   .hotel__button {
-    padding: 19px 137px;
+    padding: 18px 137px;
+  }
+
+  .hotel__button-span {
+    font-size: 21px;
   }
 
   .hotel__button:hover {
@@ -76,7 +80,7 @@
 
   .hotel__description {
     margin-top: 32px;
-    margin-bottom: 62px;
+    margin-bottom: 64px;
   }
 
   .hotel__button:hover {

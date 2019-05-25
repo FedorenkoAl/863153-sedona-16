@@ -21,7 +21,8 @@ gulp.task("copy", function () {
   return gulp.src(["source/fonts/**/*.{woff,woff2}",
     "source/img/**",
     "source/js/**",
-    "source/*.ico"
+    "source/*.ico",
+    "source/css/**"
     ], {
       base: "source"
       })
@@ -76,6 +77,8 @@ gulp.task("refresh", function(done) {
   server.reload();
   done();
   });
+
+
 
 gulp.task("build", gulp.series("clean","copy","css", "html"));
 gulp.task("start", gulp.series("build", "server"));

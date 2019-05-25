@@ -1,21 +1,21 @@
 .nav__item {
   padding-top: 10px;
-  padding-bottom: 4px;
+  padding-bottom: 5px;
   background-color: #81b3d2;
   border-bottom: 1px solid #9ac2db;
 }
 
-.nav__item:hover .nav__link {
-  color: #81b3d2;
+ .nav__item:hover .nav__link {
+  color: #669ec0;
 }
 
-.nav__item:active .nav__link {
-  color: #d6d6d6;
+.nav__link:active  {
+  color:  #5496bd;
 }
 
 .nav__item--active {
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -46,9 +46,13 @@
 }
 
 .nav__link {
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
+  padding-top: 16px;
+  padding-left: 92px;
+  padding-bottom: 14px;
+  padding-right: 92px;
   list-style: none;
   text-transform: uppercase;
   text-decoration: none;
@@ -58,8 +62,8 @@
 
 @media (min-width: 768px) {
   .nav {
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-left: 2px;
+    padding-right: 0px;
     z-index: 1;
   }
 
@@ -80,7 +84,15 @@
   }
 
   .nav__item {
+    width: 20%;
     padding-top: 5px;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+  }
+
+  .nav--photo .nav__item {
+    padding-top: 3px;
     color: #000000;
     background-color: #ffffff;
     border: none;
@@ -95,15 +107,19 @@
   }
 
   .nav__item--photo {
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  .nav__list-active {
-    font-size: 12px;
+  .nav--photo .nav__list-active {
+    font-size: 14px;
   }
 
   .nav__item--active {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .nav--photo .nav__item--active {
+    font-size: 14px;
     color: #766357;
   }
 
@@ -114,8 +130,9 @@
   }
 
   .nav__link {
+    padding: 0;
     color: #000000;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 26px;
     background-color: #ffffff;
     text-decoration: none;
@@ -125,8 +142,8 @@
 @media (min-width: 1200px) {
   .nav {
     position: relative;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .nav__item:hover .nav__link {
@@ -161,12 +178,12 @@
   }
 
   .nav__link {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
   }
 
   .nav__item--active {
-    font-size: 12px;
+    font-size: 14px;
     color: #766357;
   }
 }
