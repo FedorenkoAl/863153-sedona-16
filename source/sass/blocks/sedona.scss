@@ -28,11 +28,11 @@
   background-position: center 50px, center bottom, center bottom;
   height: 157px;
 
-   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/text-sedona.svg"),
       url("../img/bg-intro-triangle-mobile.svg"),
       url("../img/bg-back-mobile@2x.jpg");
-   }
+  }
 }
 
 @media (min-width: 768px) {
