@@ -48,7 +48,6 @@
   font-size: 12px;
   font-weight: 400;
   color: #333333;
-
 }
 
 .photo__block-author-cap {
@@ -140,7 +139,7 @@
     width: 324px;
     height: 267px;
     margin: auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .photo__img {
@@ -229,7 +228,6 @@
     background-color: #eaeaea;
     z-index: -1;
   }
-
 }
 
 @media (min-width: 1200px) {

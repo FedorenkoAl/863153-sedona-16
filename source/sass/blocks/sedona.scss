@@ -1,14 +1,14 @@
 .sedona {
   position: relative;
-  min-width:  320px;
+  min-width: 320px;
   height: 389px;
   margin: 0 auto;
   background-image: url("../../img/text-sedona-index.svg"),
     url("../../img/bg-intro-triangle-mobile.svg"),
     url("../../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position:  center 90px, center bottom, center bottom;
-  background-size:  282px 214px, 320px 26px, 768px 389px;
+  background-position: center 90px, center bottom, center bottom;
+  background-size: 282px 214px, 320px 26px, 768px 389px;
   background-color: #deecf5;
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -59,7 +59,7 @@
 
   .sedona--photo,
   .sedona--form {
-    margin-top: 0px;
+    margin-top: 0;
     height: 291px;
     background-image: url("../img/text-sedona.svg"),
       url("../img/bg-intro-triangle-tablet.svg"),
