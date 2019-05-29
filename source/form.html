@@ -5,17 +5,19 @@
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+      document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.js" async></script>
   </head>
   <body>
     <div class="container-site">
       <header class="header">
-        <nav class="nav">
+        <nav class="nav nav--form">
           <ul class="nav__list">
             <li class="nav__item nav__item--active">
               <a class="nav__link" href="index.html"><span class="nav__list-active">Главная</span></a>
-              <button class="nav__close">Закрыть
-              <img class="nav__close-img" src="img/icon-cross.svg" width="22" height="22" alt="Закрыть">
-              </button>
+              <button class="nav__close">Закрыть</button>
             </li>
             <li class="nav__item">
               <a class="nav__link" href="photo.html">Фото и видео</a>
@@ -23,7 +25,9 @@
             <li class="nav__item nav__item--logo">
               <a href="index.html">
                 <picture>
+                   <!--[if IE 9]><video style="display: none;"><![endif]-->
                   <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+                      <!--[if IE 9]></video><![endif]-->
                   <img class="nav__logo-img" src="img/logo-sedona-tablet.svg" width="102" height="84" alt="Логотип">
                 </picture>
               </a>
@@ -42,15 +46,7 @@
               <img class="menu__logo-img" src="img/logo-sedona-mobile.svg" width="102" height="84" alt="Логотип">
             </a>
           </div>
-          <button class="menu__toggle" type="button">Открыть меню
-          <svg version="1.0"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
-            <g>
-              <rect width="22.928" height="3.964"/>
-              <rect y="9.009" width="22.928" height="3.964"/>
-              <rect y="18.018" width="22.928" height="3.964"/>
-            </g>
-          </svg>
-          </button>
+          <button class="menu__toggle" type="button">Открыть меню</button>
         </div>
       </header>
       <main class="main-form">
@@ -92,15 +88,15 @@
                 <div class="impressions">
                   <p class="impressions__title">Ваше Общее впечатление:</p>
                   <p class="impressions__wrepper-input">
-                    <input class="visually-hidden visually-hidden--input" type="radio" name="toggle" id="plus" checked>
+                    <input class="impressions__hidden" type="radio" name="toggle" id="plus" checked>
                     <label class="impressions__text" for="plus">Скорее положительное</label>
                   </p>
                   <p class="impressions__wrepper-input">
-                    <input class="visually-hidden visually-hidden--input" type="radio" name="toggle" id="minus">
+                    <input class="impressions__hidden" type="radio" name="toggle" id="minus">
                     <label class="impressions__text" for="minus">Скорее отрицательное</label>
                   </p>
                   <p class="impressions__wrepper-input">
-                    <input class="visually-hidden visually-hidden--input" type="radio" name="toggle" id="zero">
+                    <input class="impressions__hidden" type="radio" name="toggle" id="zero">
                     <label class="impressions__text" for="zero">Затрудняюсь ответить</label>
                   </p>
                 </div>
@@ -109,26 +105,26 @@
                 <p class="landmarks__title">Посещенные достопримечательности:</p>
                 <div class="landmarks__wrepper">
                   <p class="landmarks__wrepper-input">
-                    <input class="visually-hidden" id="bridge" type="checkbox" name="attraction" checked>
+                    <input class="landmarks__hidden" id="bridge" type="checkbox" name="attraction" checked>
                     <label class="landmarks__text landmarks__text--label" for="bridge">Мост Дьявола</label>
                   </p>
                   <p class="landmarks__wrepper-input">
-                    <input class="visually-hidden" id="mountain" type="checkbox" name="attraction" checked>
+                    <input class="landmarks__hidden" id="mountain" type="checkbox" name="attraction" checked>
                     <label class="landmarks__text landmarks__text--label" for="mountain">Гора-Колокол</label>
                   </p>
                   <p class="landmarks__wrepper-input">
-                    <input class="visually-hidden" id="park" type="checkbox" name="attraction" checked>
+                    <input class="landmarks__hidden" id="park" type="checkbox" name="attraction" checked>
                     <label class="landmarks__text landmarks__text--label" for="park">Слайд-парк</label>
                   </p>
                   <p class="landmarks__wrepper-input">
-                    <input class="visually-hidden" id="rocks" type="checkbox" name="attraction">
+                    <input class="landmarks__hidden" id="rocks" type="checkbox" name="attraction">
                     <label class="landmarks__text" for="rocks">Красные скалы</label>
                   </p>
                 </div>
               </div>
-              <div class="landmarks__emotions-wrepper">
-                <label class="landmarks__emotions" for="message">Опишите свои эмоции:</label>
-                <textarea class="landmarks__textarea" id="message">Опишите подробно все свои восторги </textarea>
+              <div class="emotions">
+                <label class="emotions__title" for="message">Опишите свои эмоции:</label>
+                <textarea class="emotions__textarea" id="message">Опишите подробно все свои восторги </textarea>
               </div>
               <div class="feedback__wrepper-button">
                 <button class="feedback__form-button feedback__form-button--disabled" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>

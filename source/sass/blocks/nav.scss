@@ -1,6 +1,6 @@
 .nav__item {
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 9px;
+  padding-bottom: 6px;
   background-color: #81b3d2;
   border-bottom: 1px solid #9ac2db;
 }
@@ -19,15 +19,28 @@
   text-align: center;
 }
 
-.nav__close {
+.nav--none {
   display: none;
 }
 
-.nav__close-img {
-  width: 23px;
+.nav__close {
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+}
+
+.nav__close--button {
+  position: absolute;
+  top: 18px;
+  right: 19px;
+  width: 22px;
   height: 22px;
-  margin: 0;
-  background-color: #81b3d2;
+  border: none;
+  font-size: 0;
+  mask: url("../img/icon-cross.svg");
+  mask-repeat: no-repeat;
+  background-color: #ffffff;
 }
 
 .nav__item--logo,
@@ -79,23 +92,27 @@
   .nav__logo-img {
     position: absolute;
     top: 0;
-    left: 43%;
+    left: 43.5%;
     z-index: 1;
   }
 
   .nav__item {
     width: 20%;
-    padding-top: 5px;
+    padding-top: 8px;
     color: #000000;
     background-color: #ffffff;
     border: none;
   }
 
   .nav--photo .nav__item {
-    padding-top: 3px;
+    padding-top: 9px;
     color: #000000;
     background-color: #ffffff;
     border: none;
+  }
+
+  .nav--form .nav__item {
+     padding-top: 5px;
   }
 
   .nav__item:hover .nav__link {
@@ -110,6 +127,13 @@
     font-size: 14px;
   }
 
+  .nav--form .nav__logo-img {
+    position: absolute;
+    top: -2px;
+    left: 43.5%;
+    z-index: 1;
+  }
+
   .nav--photo .nav__list-active {
     font-size: 14px;
   }
@@ -118,7 +142,9 @@
     font-size: 14px;
   }
 
-  .nav--photo .nav__item--active {
+  .nav__item--active,
+  .nav--photo .nav__item--active,
+  .nav--form  .nav__item--active {
     font-size: 14px;
     color: #766357;
   }
@@ -163,14 +189,36 @@
     width: 186.643px;
     height: 96.425px;
     position: absolute;
-    top: 0;
-    left: 42%;
+    top: -1px;
+    left: 505px;
+    z-index: 1;
+  }
+
+  .nav--photo .nav__logo-img {
+    width: 186.643px;
+    height: 96.425px;
+    position: absolute;
+    top: -2px;
+    left: 507px;
+    z-index: 1;
+  }
+
+  .nav--form .nav__logo-img {
+    width: 186.643px;
+    height: 96.425px;
+    position: absolute;
+    top: -2px;
+    left: 507px;
     z-index: 1;
   }
 
   .nav__item--logo-phto {
     width: 186.643px;
     z-index: 1;
+  }
+
+  .nav--photo .nav__item {
+    padding-top: 5px;
   }
 
   .nav__list {

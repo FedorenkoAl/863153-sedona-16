@@ -6,17 +6,24 @@
 }
 
 .menu__toggle {
-  position: absolute;
-  display: none;
-  top: 25%;
-  right: 5%;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
   font-size: 0;
-  border: none;
-  background-color: #ffffff;
 }
 
-.menu__toggle svg {
-  fill: #81b3d2;
+.menu__toggle--close {
+  position: absolute;
+  top: 16px;
+  right: 19px;
+  width: 23px;
+  height: 22px;
+
+  border: none;
+  mask: url("../../img/icon-menu.svg");
+  mask-repeat: no-repeat;
+  background-color: #81b3d2;
 }
 
 .menu__logo {

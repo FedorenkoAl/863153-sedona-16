@@ -7,8 +7,8 @@
 
 .landmarks__title {
   margin: 0;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  margin-top: 18px;
+  margin-bottom: 32px;
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -17,9 +17,13 @@
   text-transform: uppercase;
 }
 
+.landmarks__hidden {
+  display: none;
+}
+
 .landmarks__wrepper-input:nth-child(2) {
   margin: 0;
-  margin-top: 56px;
+  margin-top: 54px;
 }
 
 .landmarks__wrepper-input:nth-child(3) {
@@ -29,7 +33,7 @@
 
 .landmarks__text {
   position: relative;
-  margin-left: 75px;
+  margin-left: 78px;
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -53,38 +57,6 @@
   background-color: #f2f2f2;
 }
 
-.landmarks__emotions {
-  display: block;
-  margin: 0;
-  margin-top: 14px;
-  margin-bottom: 16px;
-  color: #000000;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.landmarks__emotions-wrepper {
-  margin: 0 auto;
-  margin-top: 44px;
-  text-align: center;
-  border-top: 1px solid #dbdbdb;
-}
-
-.landmarks__textarea {
-  background-color: #f2f2f2;
-  width: 260px;
-  height: 140px;
-  padding-top: 18px;
-  padding-left: 18px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
-  border: none;
-}
-
 @media (min-width: 768px) {
   .landmarks {
     width: 648px;
@@ -100,7 +72,7 @@
   .landmarks__wrepper-input:nth-child(2) {
     margin: 0;
     margin-top: 0;
-    margin-left: 143px;
+    margin-left: 152px;
   }
 
   .landmarks__wrepper-input:nth-child(3) {
@@ -110,8 +82,19 @@
     margin-right: 160px;
   }
 
+  .landmarks__wrepper-input:nth-child(4) {
+    margin-left: 9px;
+  }
+
   .landmarks__text {
     margin-left: 0;
+  }
+
+  .landmarks__text::before {
+    width: 59px;
+    height: 59px;
+    top: -16px;
+    left: -79px;
   }
 
   .landmarks__wrepper {
@@ -137,31 +120,6 @@
   .landmarks__wrepper-input {
     margin-top: 0;
     margin-right: 0;
-  }
-
-  .landmarks__emotions {
-    width: 280px;
-    margin: auto;
-    margin-top: -30px;
-    margin-bottom: 35px;
-    padding: 20px 30px;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 26px;
-    background-color: #ffffff;
-  }
-
-  .landmarks__emotions-wrepper {
-    width: 648px;
-    margin: 0 auto;
-    margin-top: 75px;
-    border-top: 1px solid #dbdbdb;
-  }
-
-  .landmarks__textarea {
-    width: 625px;
-    padding-top: 18px;
-    padding-left: 24px;
   }
 }
 
@@ -204,24 +162,6 @@
   .landmarks__wrepper-input:nth-child(3) {
     margin-right: 0;
     margin-left: 0;
-  }
-
-  .landmarks__emotions {
-    margin-top: -33px;
-  }
-
-  .landmarks__textarea {
-    width: 960px;
-    height: 149px;
-    margin: 0 auto;
-    padding-left: 20px;
-  }
-
-  .landmarks__emotions-wrepper {
-    width: 960px;
-    margin: 0 auto;
-    margin-top: 75px;
-    border-top: 1px solid #dbdbdb;
   }
 
   .landmarks__text:hover::before {

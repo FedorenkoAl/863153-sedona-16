@@ -1,0 +1,78 @@
+.emotions__title {
+  display: block;
+  margin: 0;
+  margin-top: 14px;
+  margin-bottom: 16px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotions {
+  margin: 0 auto;
+  margin-top: 44px;
+  text-align: center;
+  border-top: 1px solid #dbdbdb;
+}
+
+.emotions__textarea {
+  background-color: #f2f2f2;
+  width: 260px;
+  height: 140px;
+  padding-top: 18px;
+  padding-left: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .emotions__title {
+    width: 280px;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 35px;
+    padding: 20px 30px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    background-color: #ffffff;
+  }
+
+  .emotions {
+    width: 648px;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-top: 1px solid #dbdbdb;
+  }
+
+  .emotions__textarea {
+    width: 625px;
+    padding-top: 18px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .emotions__title {
+    margin-top: -33px;
+  }
+
+  .emotions__textarea {
+    width: 960px;
+    height: 149px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  .emotions {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-top: 1px solid #dbdbdb;
+  }
+}

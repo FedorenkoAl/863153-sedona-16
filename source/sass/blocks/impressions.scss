@@ -19,11 +19,15 @@
 
 .impressions__text {
   position: relative;
-  padding-left: 75px;
+  padding-left: 77px;
   color: #000000;
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
+}
+
+.impressions__hidden {
+  display: none;
 }
 
 .impressions__wrepper-input {
@@ -34,10 +38,10 @@
 .impressions__text::before {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 50px;
-  top: -13px;
-  left: 0;
+  width: 49px;
+  height: 49px;
+  top: -12px;
+  left: 4px;
   border-radius: 50%;
   background-color: #f2f2f2;
 }
@@ -48,7 +52,7 @@
   width: 20px;
   height: 20px;
   top: 2px;
-  left: 15px;
+  left: 19px;
   border-radius: 50%;
   background-color: #333333;
 }
@@ -83,7 +87,7 @@
   }
 
   .impressions__text {
-    padding-left: 109px;
+    padding-left: 112px;
   }
 
   .impressions__wrepper-input {
@@ -91,13 +95,13 @@
   }
 
   .impressions__text::before {
-    top: -13px;
-    left: 37px;
+    top: -12px;
+    left: 42px;
   }
 
   [type="radio"]:checked + .impressions__text::after {
     top: 3px;
-    left: 52px;
+    left: 57px;
   }
 
   .impressions__text:hover::before {
@@ -125,19 +129,21 @@
   }
 
   .impressions__text {
-    padding-left: 170px;
+    padding-left: 173px;
   }
 
   .impressions__text::before {
-    width: 58px;
-    height: 58px;
+    width: 59px;
+    height: 59px;
     top: -15px;
-    left: 92px;
+    left: 95px;
   }
 
   [type="radio"]:checked + .impressions__text::after {
-    top: 2px;
-    left: 112px;
+    width: 21px;
+    height: 21px;
+    top: 4px;
+    left: 114px;
   }
 
   .impressions__text:hover::before {

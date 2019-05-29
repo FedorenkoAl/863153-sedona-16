@@ -1,7 +1,7 @@
 .recommendation-wrapper {
   padding-top: 33px;
   padding-left: 69px;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
 }
 
 .recommendation__title {
@@ -28,6 +28,7 @@
   width: 39px;
   height: 37px;
   mask: url("../img/icon-house.svg");
+  mask-repeat: no-repeat;
   mask-size: 39px 37px;
   top: -9px;
   left: -49px;
@@ -41,6 +42,7 @@
   width: 32px;
   height: 38px;
   mask: url("../img/icon-gift.svg");
+  mask-repeat: no-repeat;
   mask-size: 32px 38px;
   top: -9px;
   left: -45px;
@@ -54,6 +56,7 @@
   width: 40px;
   height: 35px;
   mask: url("../img/icon-burger.svg");
+  mask-repeat: no-repeat;
   mask-size: 40px 35px;
   top: -4px;
   left: -48px;
@@ -104,7 +107,7 @@
     width: 64px;
     height: 75px;
     mask-size: 64px 75px;
-    top: -99px;
+    top: -101px;
     left: 17px;
   }
 
@@ -112,7 +115,7 @@
     width: 77px;
     height: 71px;
     mask-size: 77px 72px;
-    top: -94px;
+    top: -98px;
     left: -18px;
   }
 
@@ -143,13 +146,13 @@
 
 @media (min-width: 1200px) {
   .recommendation-wrapper {
-    padding-top: 36px;
+    padding-top: 33px;
     padding-left: 0;
     padding-bottom: 55px;
   }
 
   .recommendation__title-subtitle {
-    margin-top: 11px;
+    margin-top: 15px;
     margin-bottom: 27px;
   }
 
@@ -165,8 +168,22 @@
     width: 283px;
   }
 
+  .recommendation__title--img-residence::before {
+    width: 75px;
+    height: 72px;
+    top: -99px;
+    left: -2px;
+  }
+
   .recommendation__title--img-food::before {
-    top: -100px;
+    width: 77px;
+    height: 71px;
+    top: -98px;
     z-index: 1;
+  }
+
+  .recommendation__title--img-souvenirs::before {
+    width: 64px;
+    height: 75px;
   }
 }
