@@ -3,9 +3,9 @@
   min-width: 320px;
   height: 389px;
   margin: 0 auto;
-  background-image: url("../../img/text-sedona-index.svg"),
-    url("../../img/bg-intro-triangle-mobile.svg"),
-    url("../../img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/text-sedona-index.svg"),
+    url("../img/bg-intro-triangle-mobile.svg"),
+    url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center 90px, center bottom, center bottom;
   background-size: 282px 214px, 320px 26px, 768px 389px;
@@ -14,7 +14,7 @@
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/text-sedona-index.svg"),
       url("../img/bg-intro-triangle-mobile.svg"),
-      url("../../img/bg-back-mobile@2x.jpg");
+      url("../img/bg-back-mobile@2x.jpg");
   }
 }
 
